@@ -2,7 +2,7 @@
 
 Solving the classification problem of identifying acne into four categories: healthy, mild, moderate and severe. Data augmentation and dropout used besides a standard VGG model. After validation, an accuracy of 90% is achieved. 
 
-The first step was performing augmentation on the dataset provided: from 400 images for each category, randomly using zoom, rotations and flip functions, we extended the dataset to 2000 images for each class. The tools needed to do that are under augmentation.py; as an example refer to the images in the augmentation file. 
+The first step was performing augmentation on the dataset provided: from 400 images for each category, randomly using zoom, rotations and flip functions, we extended the dataset to 2000 images for each class. The tools needed to do that are under augmentation.py; as an example refer to the images in the augmentation file. Here is a small sample.
 
 <p align="center">
   <img src="https://github.com/hectormorag/acneclassification/blob/main/augmentation/DataAugmentationSample.png"/>
@@ -62,3 +62,4 @@ Finally, I present the table with the results of exercise $3$.
 | Image 11 |   Healthy  |
 | Image 12 |   Healthy  |
 
+For further details refer to the content of this repository. The training and validation images won't be uploaded again too optimize space storage, but are the same that were provided for this task. 
