@@ -6,4 +6,6 @@ The first step was performing augmentation on the dataset provided: from 400 ima
 
 The second step was training the VGG16 model after the fine tuning. I used tensorboard to keep track of the performance of the model. The final results can be seen in the following plots: 
 
+![alt text](https://github.com/hectormorag/acneclassification/blob/main/ModelPerformance/EpochAcc.png?raw=true)
 
+![alt text](https://github.com/hectormorag/acneclassification/blob/main/ModelPerformance/EpochAcc.png?raw=true)
